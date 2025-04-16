@@ -24,6 +24,7 @@ import { resolveQuery } from "@/chat/chat";
 import { Staff2 } from "@/components/ThreeD/characters/Staff2";
 import { useInput } from "@/hooks/useInput";
 import { CustomPhone } from "@/components/ThreeD/furniture/CustomPhone";
+import { Scene } from "@/components/ThreeD/Scene";
 
 
 export default function Page() {
@@ -328,6 +329,7 @@ export default function Page() {
 
           {/* <CustomPhone onClick={showCustomModal} /> */}
           <MapFloor />
+          {/* <Scene/> */}
           <Character />
           {/* <StoreFrame /> */}
           {/* <Furniture onLaptopClick={handleLaptopClick} /> */}
